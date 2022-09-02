@@ -1,0 +1,9 @@
+<mapper namespace="User">
+    <select id="selectOne" paramterType="bo.User"
+            resultType="bo.User">
+        select * from user where id = #{id} and username =#{username}
+    </select>
+    <select id="selectList" resultType="bo.User">
+        select * from user
+    </select>
+</mapper>
