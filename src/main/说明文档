@@ -1,0 +1,2 @@
+1、SqlSession接口 主要封装curd
+2、SqlSessionFactory openSession 获取SqlSession接口的实现类方法
